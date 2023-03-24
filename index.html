@@ -69,11 +69,46 @@
                 <use href="./images/icons.svg#icon-close-modal"></use>
               </svg>
             </button>
-            <form>
-              <label for="name">
-                <input type="text" id="name" class="modal-form" placeholder="|">
+            <h3 class="text-for-modal">Leave your contacts and we will call you back</h3>
+            <form class="form-info">
+
+              <label for="name" class="form-label"><span class="input-name">Name</span> 
+                <input type="text" id="name" class="modal-form" placeholder=" ">
+                <svg class="modal-icon">
+                  <use href="./images/icons.svg#icon-person"> </use>
+                </svg>
+              </label>
+
+              <label for="phone" class="form-label"><span class="input-name">Phone</span>
+                <input type="text" id="phone" class="modal-form" placeholder=" ">
+                <svg class="modal-icon">
+                  <use href="./images/icons.svg#icon-phone"> </use>
+                </svg>
+              </label>
+
+              <label for="mail" class="form-label"><span class="input-name">Email</span>
+                <input type="text" id="mail" class="modal-form" placeholder=" ">
+                <svg class="modal-icon">
+                  <use href="./images/icons.svg#icon-email"> </use>
+                </svg>
+              </label>
+
+              <label for="comment" class="form-label"><span class="input-name">Comment</span>
+                <textarea name="Comment" id="comment" class="text-area" placeholder="Text input"></textarea>
+              </label>
+              <label for="policy" class="form-label-checkbox">
+                <input type="checkbox"
+                id="checkbox"
+                class="checkbox visually-hidden">
+                <span>
+                  <svg width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the <a href="">Privacy Policy</a>
               </label>
             </form>
+            <button type="submit" class="send-button">Send</button>
           </div>
         </div>
       </section>
