@@ -93,19 +93,21 @@
                 </svg>
               </label>
 
-              <label for="comment" class="form-label"><span class="input-name">Comment</span>
+              <label for="comment" class="form-textarea"><span class="input-name">Comment</span>
                 <textarea name="Comment" id="comment" class="text-area" placeholder="Text input"></textarea>
               </label>
               <label for="policy" class="form-label-checkbox">
                               <input type="checkbox"
-              id="checkbox"
+              id="policy"
               class="checkbox visually-hidden">
-                <span>
-                  <svg width="10" height="8">
+                <span class="modal-form-custom-checkbox">
+                  <svg class="modal-form-checkbox-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-check"></use>
                   </svg>
                 </span>
-                I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                <span class="checkbox-text">
+                I accept the terms and conditions of the <a href="" class="privacy-link">Privacy Policy</a>
+              </span>
               </label>
             </form>
             <button type="submit" class="send-button">Send</button>
