@@ -369,7 +369,7 @@ text-align: left;
 }
 
 .modal-form:focus + .modal-icon {
-    fill: var(--accent-color-btn);
+    fill: var(--accent-color);
 }
 
 .checkbox {
