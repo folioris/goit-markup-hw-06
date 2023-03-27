@@ -352,9 +352,7 @@ text-align: left;
     transform: translateY(-10%)
 }
 
-.modal-icon:hover{
-    fill: var(--accent-color);
-}
+
 
 .modal-form{
     display: block;
@@ -366,8 +364,12 @@ text-align: left;
     padding: 11px 38px;
 }
 
-.modal-form:hover {
+.modal-form:focus {
     border-color: var(--accent-color);
+}
+
+.modal-form:focus + .modal-icon {
+    fill: var(--accent-color-btn);
 }
 
 .checkbox {
