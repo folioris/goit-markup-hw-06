@@ -62,35 +62,41 @@
           
           <button type="button" class="main-btn" data-modal-open>Order Service</button>
         </div>
-        <div class="backdrop is-hidden"data-modal>
+        <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button type="button" class="btn-close-modal" data-modal-close> 
               <svg class="icon-close-modal">
                 <use href="./images/icons.svg#icon-close-modal"></use>
               </svg>
             </button>
-            <h3 class="text-for-modal">Leave your contacts and we will call you back</h3>
+            <p class="text-for-modal">Leave your contacts and we will call you back</p>
             <form class="form-info">
 
               <label for="name" class="form-label"><span class="input-name">Name</span> 
-                <input type="text" id="name" class="modal-form" placeholder=" ">
+                <span class="span-for-input">
+                <input type="name" id="name" class="modal-form">
                 <svg class="modal-icon">
                   <use href="./images/icons.svg#icon-person"> </use>
                 </svg>
+              </span>
               </label>
 
               <label for="phone" class="form-label"><span class="input-name">Phone</span>
-                <input type="text" id="phone" class="modal-form" placeholder=" ">
+                <span class="span-for-input">
+                <input type="tel" id="phone" class="modal-form">
                 <svg class="modal-icon">
                   <use href="./images/icons.svg#icon-phone"> </use>
                 </svg>
+              </span>
               </label>
 
               <label for="mail" class="form-label"><span class="input-name">Email</span>
-                <input type="text" id="mail" class="modal-form" placeholder=" ">
+                <span class="span-for-input">
+                <input type="email" id="mail" class="modal-form">
                 <svg class="modal-icon">
                   <use href="./images/icons.svg#icon-email"> </use>
                 </svg>
+                </span>
               </label>
 
               <label for="comment" class="form-textarea"><span class="input-name">Comment</span>
@@ -451,32 +457,32 @@
       </p>
     </div>
     <div class="footer-media">
-      <h3 class="social-media">Social media</h3>
+      <p class="social-media">Social media</p>
       <ul class="list icons-footer">
         <li class="team-icon">
       <a class="social-networks-footer">
-        <svg class="inst"> 
+        <svg width="24" height="24"> 
           <use href="./images/icons.svg#icon-instagram"> </use>
         </svg>
       </a>
     </li>
     <li class="team-icon"> 
       <a class="social-networks-footer">
-        <svg class="twitter"> 
+        <svg width="24" height="24"> 
           <use href="./images/icons.svg#icon-twitter"> </use>
         </svg>
       </a>
     </li>
     <li class="team-icon">  
       <a class="social-networks-footer">
-        <svg class="facebook"> 
+        <svg width="24" height="24"> 
           <use href="./images/icons.svg#icon-facebook"> </use>
         </svg>
       </a>
     </li>
     <li class="team-icon">
       <a class="social-networks-footer">
-        <svg class="linkedin"> 
+        <svg width="24" height="24"> 
           <use href="./images/icons.svg#icon-linkedin"> </use>
         </svg>
       </a>
@@ -484,10 +490,10 @@
     </ul>
   </div>
   <div class="footer-form">
-    <h1 class="subscribe">Subscribe</h1>
+    <p class="subscribe">Subscribe</p>
   <form class="subscribe-form">
-    <label for="mail"></label>
-    <input type="email" name="mail" id="mail" class="footer-input" placeholder="E-mail">
+
+    <input aria-label="mail" type="email" name="mail" id="mail" class="footer-input" placeholder="E-mail">
     <button type="submit" class="button-form">Subscribe
       <svg class="icon-logo-tg" width="24px" height="24px">
         <use href="./images/icons.svg#icon-logo-tg"></use>
